@@ -34,11 +34,13 @@ http://www.whois.com/whois website to get detailed information about a domain na
 ping command is available on Windows as well as on Linux OS. Following is the example to find out the IP address of facebook.com.
 ##output
 
+<img width="1867" height="882" alt="image" src="https://github.com/user-attachments/assets/03dfd560-4718-4428-b8d7-9782ef6a82e1" /></br>
 
 
 ## Finding Hosting Company
 get further detail by using ip2location.com website.
 ##output
+<img width="1903" height="852" alt="image" src="https://github.com/user-attachments/assets/6b08543b-9698-40c9-bff6-90810bf00c37" /></br>
 
 
 
@@ -46,6 +48,7 @@ get further detail by using ip2location.com website.
 ## output
 https://web.archive.org/
 
+<img width="1908" height="1032" alt="image" src="https://github.com/user-attachments/assets/ae1fb601-05ae-4be8-9a5f-21d4343274da" /></br>
 
 # Webserver Fingerprinting:
 
@@ -53,6 +56,7 @@ https://web.archive.org/
 sudo nc example.com 80
 GET / HTTP/1.1
 Host: example.com
+<img width="747" height="505" alt="image" src="https://github.com/user-attachments/assets/70ca4156-648d-47db-b2ef-e5ff2d7abef3" />
 
 
 
@@ -72,18 +76,18 @@ Host: example.com
 
 # Tracing the Location
 TCP Traceroute:
-sudo traceroute -T www.google.com
+sudo traceroute -T www.instragram.com
 ## output
 
 
 ## UDP Traceroute:
-sudo traceroute -U www.google.com
+sudo traceroute -U www.instagram.com
 ## output
 
 
 
 ## ICMP Traceroute:
-sudo traceroute  www.google.com
+sudo traceroute  www.instragram.com
 ## output
 
 
